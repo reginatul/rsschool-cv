@@ -24,3 +24,5 @@ class SmallestIntegerFinder {
 - "The Complete JavaScript Course 2022" by Jonas Schmedtmann on [Udemy](https://www.udemy.com/course/the-complete-javascript-course/) (in process).
 - "Web design in Figma. UI/UX design fundamentals in practice" by Evgen Marfel on [Udemy](https://www.udemy.com/course/web-design-in-figma-ui-ux/) (in process).
 ## Languages:
+- **English:** Upper-Intermediate.
+- **Russian:** Native.
