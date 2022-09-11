@@ -12,6 +12,13 @@ Though previously i myself did not had any experience in this field, i decided t
 - CSS
 - Figma basics
 ## Code example:
+```
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    return Math.min.apply(null, args);
+  }
+}
+```
 ## Courses:
 - Complited Javascript, HTML, CSS courses on [Code Basics](code-basics.com).
 - "The Complete JavaScript Course 2022" by Jonas Schmedtmann on [Udemy](https://www.udemy.com/course/the-complete-javascript-course/) (in process).
