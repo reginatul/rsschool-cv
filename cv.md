@@ -15,3 +15,20 @@ Though previously i myself did not had any experience in this field, i decided t
 - HTML
 - CSS
 ---
+### Code example:
+```
+
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    return Math.min.apply(null, args);
+  }
+}
+```
+### Courses:
+- Complited Javascript, HTML, CSS courses on [Code Basics](code-basics.com).
+- "The Complete JavaScript Course 2022" by Jonas Schmedtmann on [Udemy](https://www.udemy.com/course/the-complete-javascript-course/) (in process).
+- "Web design in Figma. UI/UX design fundamentals in practice" by Evgen Marfel on [Udemy](https://www.udemy.com/course/web-design-in-figma-ui-ux/) (in process).
+---
+### Languages:
+- **English:** Upper-Intermediate EFSET results.
+- **Russian:** Native
