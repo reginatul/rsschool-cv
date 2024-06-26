@@ -1,5 +1,5 @@
-##### Regina Tulbaeva
-### Junior Frontend Developer
+# Regina Tulbaeva
+## Junior Frontend Developer
 ---
 ### Contacts:
 - **Location**: Moscow, Russia
