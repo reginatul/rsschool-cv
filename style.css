@@ -50,6 +50,7 @@ html{
 .container{
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .nav{
@@ -72,7 +73,7 @@ html{
 }
 
 .nav-link:hover{
-    font-size: 22px;
+    font-size: 20px;
     color: white;  
 }
 
@@ -91,10 +92,10 @@ html{
 }
 
 .section{
-    width: calc(50%-20px);
+    width: calc(50% - 20px);
     padding: 10px;
     padding-bottom: 35px;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #00000077;
 }
 
 @media(max-width: 768px){
@@ -106,10 +107,24 @@ html{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    padding: 50px 35px;
+    padding: 20px 10px;
+
     border-bottom: 1px solid #00000071;
 }
 
+.profile-photo{
+    margin-right: 200px;
+}
+
+.name{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgb(108, 95, 122);
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+}
 .my-photo{
     border-radius: 50%;
 }
@@ -149,4 +164,8 @@ li.github{
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 20px;
+}
+
+.footer{
+    border: 20px solid rgb(126, 110, 151)
 }
