@@ -40,6 +40,12 @@ html{
     scroll-behavior: smooth;
 }
 
+h3{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.479);
+}
 .header{
     font-size: 18px;
     font-family: 'Urbanist', sans-serif;
@@ -112,6 +118,12 @@ html{
     border-bottom: 1px solid #00000071;
 }
 
+.section-title{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #514c53;
+}
 .profile-photo{
     margin-right: 200px;
 }
