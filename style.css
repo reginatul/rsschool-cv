@@ -19,135 +19,124 @@
     font-weight: 100;
 }
 
-body{
-    font-family: 'Urbanist', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 2;
-    min-height: 100hv;
-    margin: 0;
-    padding: 0;
+body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 400;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-h3{
+h3 {
     font-family: 'Urbanist', sans-serif;
     font-size: 40px;
     font-weight: 100;
     color: rgba(0, 0, 0, 0.479);
 }
-.header{
-    font-size: 18px;
+.header {
     font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
     font-weight: 400;
     background-color: rgb(126, 110, 151);
 }
 
-.container{
+.container {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 10px;
 }
 
-.nav{
-    
-}
 
-.nav-list{
+.nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
 }
 
-.nav-link{
+.nav-link {
     color: aliceblue;
-    transition: .3s;
+    transition: 0.3s;
     padding: 0 20px;
     line-height: 50px;
     text-decoration: none;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     font-size: 20px;
     color: white;  
 }
 
-.nav-link{
 
-}
-
-.main{
-
-}
-
-.main-container{
+.main-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.section{
+.section {
     width: calc(50% - 20px);
     padding: 10px;
     padding-bottom: 35px;
     border-bottom: 1px solid #00000077;
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
     .section{
         width: 100%;
     }
 }
-.section-profile{
+.section-profile {
     display: flex;
     justify-content: space-around;
     width: 100%;
     padding: 20px 10px;
-
     border-bottom: 1px solid #00000071;
 }
 
-.section-title{
+.section-title {
     font-family: 'Urbanist', sans-serif;
     font-size: 30px;
     font-weight: 400;
     color: #514c53;
 }
-.profile-photo{
+.profile-photo {
     margin-right: 200px;
 }
 
-.last-sections{
+.last-sections {
     border-bottom: none;
 }
-.name{
-    font-family: 'Urbanist', sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    color: rgb(108, 95, 122);
+.name {
     padding: 0;
     margin: 0;
     margin-left: 10px;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(108, 95, 122);
 }
-.my-photo{
+.my-photo {
     border-radius: 50%;
 }
 
-.ul-contacts{
+.ul-contacts {
     padding-left: 20px;
 }
-li.location{
+li.location {
     margin: 0;
 	padding: 5px 0 5px 30px;
 	list-style: none;
@@ -156,7 +145,7 @@ li.location{
 	background-position: left center;
 	background-size: 20px;
 }
-li.phone{
+li.phone {
     margin: 0;
 	padding: 5px 0 5px 30px;
 	list-style: none;
@@ -165,7 +154,7 @@ li.phone{
 	background-position: left center;
 	background-size: 20px;
 }
-li.mail{
+li.mail {
     margin: 0;
 	padding: 5px 0 5px 30px;
 	list-style: none;
@@ -174,7 +163,7 @@ li.mail{
 	background-position: left center;
 	background-size: 20px;
 }
-li.github{
+li.github {
     margin: 0;
 	padding: 5px 0 5px 30px;
 	list-style: none;
@@ -184,11 +173,26 @@ li.github{
 	background-size: 20px;
 }
 
-.footer{
+.footer {
     background-color:  rgb(126, 110, 151);
 }
 
-.footer-link img{
+.footer-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.footer-rs{
     width: 150px;
-    margin: 20px 0 10px 20px;
+    margin: 20px 10px 10px 5px;
+}
+.footer-git{
+    width: 50px;
+    margin: 20px 10px 10px 20px;
+}
+
+.footer p{
+    margin-top: 30px;
+    margin-right: 10px;
+    font-size: 25px;
 }
