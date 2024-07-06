@@ -128,6 +128,9 @@ h3{
     margin-right: 200px;
 }
 
+.last-sections{
+    border-bottom: none;
+}
 .name{
     font-family: 'Urbanist', sans-serif;
     font-weight: 400;
@@ -141,6 +144,9 @@ h3{
     border-radius: 50%;
 }
 
+.ul-contacts{
+    padding-left: 20px;
+}
 li.location{
     margin: 0;
 	padding: 5px 0 5px 30px;
@@ -179,5 +185,10 @@ li.github{
 }
 
 .footer{
-    border: 20px solid rgb(126, 110, 151)
+    background-color:  rgb(126, 110, 151);
+}
+
+.footer-link img{
+    width: 150px;
+    margin: 20px 0 10px 20px;
 }
