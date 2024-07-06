@@ -111,5 +111,42 @@ html{
 }
 
 .my-photo{
+    border-radius: 50%;
+}
 
+li.location{
+    margin: 0;
+	padding: 5px 0 5px 30px;
+	list-style: none;
+	background-image: url("svg/location-pin-svgrepo-com.svg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
+li.phone{
+    margin: 0;
+	padding: 5px 0 5px 30px;
+	list-style: none;
+	background-image: url("svg/phone-svgrepo-com.svg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
+li.mail{
+    margin: 0;
+	padding: 5px 0 5px 30px;
+	list-style: none;
+	background-image: url("svg/email-8-svgrepo-com.svg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
+li.github{
+    margin: 0;
+	padding: 5px 0 5px 30px;
+	list-style: none;
+	background-image: url("svg/github-142-svgrepo-com.svg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
 }
